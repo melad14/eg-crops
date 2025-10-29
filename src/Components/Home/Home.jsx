@@ -13,7 +13,16 @@ import prod3 from '../../img/91DyTnfFwtL.jpg';
 import prod4 from '../../img/1-12-1.jpg';
 import prod5 from '../../img/1-1.jpeg';
 import prod6 from '../../img/71vlBrYw5kL.jpg';
+import oil from '../../img/oil/main-removebg-preview.png';
+
 export default function Home() {
+     const oils = [
+    "Spearmint oil",
+    "Jojoba oil",
+    "Lemon balm oil",
+    "Marjoram oil",
+    "Rose oil",
+    "Basil oil"]
   useEffect(() => {
     Aos.init({
       duration: 1000
@@ -582,6 +591,34 @@ Competitive prices</h3>
     </div>
 </div>
 {/* Products End */}
+ <div className="container py-5">
+      <div className="text-center mb-5">
+        <h1 className="display-4 fw-bold text-gradient">Premium Oils Collection</h1>
+        <p className="lead text-muted">Discover our wide range of natural and therapeutic oils</p>
+      </div>
+      
+      <div className="row g-4">
+        {oils.map((oilName, index) => (
+          <div key={index} className="col-md-4 col-sm-6 text-center">
+            <div className="oil-item mb-4">
+              <img 
+                src={oil} 
+                alt={oilName}
+                className="oil-image img-fluid w-100"
+                style={{ objectFit: 'cover' }}
+              />
+              <h3 className=" mt-3  text-light">{oilName}</h3>
+            </div>
+          </div>
+        ))}
+        <div className="text-center mt-5 pt-4" data-aos="fade-up" data-aos-delay="100">
+            <h4 className="mb-4">Explore All Our Premium Oils</h4>
+            <Link to="/oils" className="btn btn-outline-primary btn-lg rounded-pill px-5">
+                View All Essential Oils
+            </Link>
+        </div>
+      </div>
+    </div>
 {/* Contact Start */}
 <div className="container-fluid py-5">
     <div className="container py-5">

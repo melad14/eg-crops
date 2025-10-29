@@ -8,6 +8,7 @@ import Products from './Components/Products/Products.jsx';
 import About from './Components/About/About.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import Service from './Components/Service/Service.jsx';
+import Oil from './Components/Oil/Oil.jsx';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/service' element={<Service />} />
+          <Route path='/oils' element={<Oil />} />
 
     
      
