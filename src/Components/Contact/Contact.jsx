@@ -48,11 +48,17 @@ export default function Contact() {
                     </tr>
                     <tr>
                         <td>E-MAIL</td>
-                        <td>contact@eg-crops.com</td>
+                        <td>sales@eg-crops.com</td>
                     </tr>
                     <tr>
                         <td>ADDRESS</td>
-                        <td>Somosta - Bani Swayf -Egypt</td>
+                        <td>Somosta - Bani Swayf - Egypt</td>
+                    </tr>
+                    <tr>
+                        <td>whatsapp</td>
+                        <td>  <Link className="me-1 my-1 btn btn-sucess bg-success w-75" to="https://wa.me/201221813654">
+                                <i className="fab fa-whatsapp"></i>
+                            </Link></td>
                     </tr>
                     <tr className="border-dark">
                         <td>FOLLOW US</td>
@@ -60,14 +66,14 @@ export default function Contact() {
                             <Link className="me-1" to="">
                                 <i className="fab fa-x-twitter"></i>
                             </Link>
-                            <Link className="me-1" to="">
+                            <Link className="me-1" to="https://www.facebook.com/share/1FkHx8enY8/">
                                 <i className="fab fa-facebook-f"></i>
                             </Link>
                             <Link className="me-1" to="">
                                 <i className="fab fa-youtube"></i>
                             </Link>
-                            <Link className="me-1" to="">
-                                <i className="fab fa-linkedin-in"></i>
+                            <Link className="me-1" to="https://wa.me/201221813654">
+                                <i className="fab fa-whatsapp"></i>
                             </Link>
                         </td>
                     </tr>

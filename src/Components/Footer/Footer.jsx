@@ -59,13 +59,13 @@ const Footer = () => {
               <a ><i className="fa fa-map-marker-alt me-2"></i>Somosta- Bani Swayf - Egypt
               </a>
               <a ><i className="fas fa-envelope me-2"></i>
-                contact@eg-crops.com</a>
+                sales@eg-crops.com</a>
               <a ><i className="fas fa-phone me-2"></i>+201221813654
               </a>
               <a  className="mb-3 text-muted"><i className="fas fa-print me-2"></i>
                eg-crops.com</a>
               <div className="d-flex">
-                <a className="btn btn-secondary btn-md-square rounded-circle me-3" >
+                <a className="btn btn-secondary btn-md-square rounded-circle me-3"href='https://www.facebook.com/share/1FkHx8enY8/' >
                   <i className="fab fa-facebook-f text-white"></i>
                 </a>
                 <a className="btn btn-secondary btn-md-square rounded-circle me-3" >
@@ -74,8 +74,8 @@ const Footer = () => {
                 <a className="btn btn-secondary btn-md-square rounded-circle me-3" >
                   <i className="fab fa-instagram text-white"></i>
                 </a>
-                <a className="btn btn-secondary btn-md-square rounded-circle me-0" >
-                  <i className="fab fa-linkedin-in text-white"></i>
+                <a className="btn btn-secondary btn-md-square rounded-circle me-0" href='https://wa.me/201221813654' >
+                  <i className="fab fa-whatsapp text-white"></i>
                 </a>
               </div>
             </div>

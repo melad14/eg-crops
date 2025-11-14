@@ -1336,7 +1336,7 @@ export default function Products() {
                             <div className="product-category mb-2">
                                 <span className="badge bg-primary-subtle text-primary">Seeds</span>
                             </div>
-                            <h5 className="product-title mb-3">Black Cumin</h5>
+                            <h5 className="product-title mb-3">Black seeds</h5>
                             <div className="product-basic-info">
                                 <p className="mb-2"><strong>Scientific Name:</strong> Nigella sativum</p>
                                 <p className="mb-0"><strong>Status:</strong> <span className="badge bg-success ms-1">Organic</span></p>
