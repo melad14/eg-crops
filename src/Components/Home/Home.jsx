@@ -569,7 +569,9 @@ Competitive prices</h3>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
                                     <ul className="list-unstyled">
-                                        <li>• Conventional (Out of Stock)</li>
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">

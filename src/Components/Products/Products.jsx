@@ -312,7 +312,9 @@ export default function Products() {
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
                                     <ul className="list-unstyled">
-                                        <li>• Conventional (Out of Stock)</li>
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -397,10 +399,10 @@ export default function Products() {
                                         <li>• Powder</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
+                                  <ul className="list-unstyled">
                                         <li>• Conventional</li>
                                         <li>• AS Reg. EC396/2005</li>
-                                        <li>• Organic (Out of Stock)</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -444,10 +446,10 @@ export default function Products() {
                                         <li>• Industrial</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
+                                  <ul className="list-unstyled">
                                         <li>• Conventional</li>
                                         <li>• AS Reg. EC396/2005</li>
-                                        <li>• Organic (Out of Stock)</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -487,10 +489,10 @@ export default function Products() {
                                         <li>• Ground</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
+                                  <ul className="list-unstyled">
                                         <li>• Conventional</li>
                                         <li>• AS Reg. EC396/2005</li>
-                                        <li>• Organic (Out of Stock)</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -516,7 +518,7 @@ export default function Products() {
                             <h5 className="product-title mb-3">Spinacia oleracea</h5>
                             <div className="product-basic-info">
                                 <p className="mb-2"><strong>Scientific Name:</strong> Spinacia oleracea</p>
-                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-warning ms-1">Out of Stock</span></p>
+                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-success ms-1">organic</span></p>
                             </div>
                         </div>
                         <div className="product-details">
@@ -531,10 +533,10 @@ export default function Products() {
                                         <li>• Ground</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
-                                        <li>• Conventional (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 (Out of Stock)</li>
-                                        <li>• Organic (Out of Stock)</li>
+                                   <ul className="list-unstyled">
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -659,10 +661,10 @@ export default function Products() {
                                         <li>• Rubbed</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
+                                  <ul className="list-unstyled">
                                         <li>• Conventional</li>
                                         <li>• AS Reg. EC396/2005</li>
-                                        <li>• Organic (Out of Stock)</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -747,11 +749,10 @@ export default function Products() {
                                         <li>• Ground</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
-                                        <li>• Conventional Sun Dried</li>
-                                        <li>• AS Reg. EC396/2005 Sun Dried (Out of Stock)</li>
-                                        <li>• Conventional Machine Dried (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 Machine Dried (Out of Stock)</li>
+                                   <ul className="list-unstyled">
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -991,7 +992,7 @@ export default function Products() {
                             <h5 className="product-title mb-3">Dill</h5>
                             <div className="product-basic-info">
                                 <p className="mb-2"><strong>Scientific Name:</strong> Anethum graveolens</p>
-                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-warning ms-1">Out of Stock</span></p>
+                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-success ms-1">organic</span></p>
                             </div>
                         </div>
                         <div className="product-details">
@@ -1004,11 +1005,10 @@ export default function Products() {
                                         <li>• Fines</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
-                                        <li>• Conventional Sun Dried (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 Sun Dried (Out of Stock)</li>
-                                        <li>• Conventional Machine Dried (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 Machine Dried (Out of Stock)</li>
+                                <ul className="list-unstyled">
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
@@ -1034,7 +1034,7 @@ export default function Products() {
                             <h5 className="product-title mb-3">Cilantro</h5>
                             <div className="product-basic-info">
                                 <p className="mb-2"><strong>Scientific Name:</strong> Coriandrum sativum</p>
-                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-warning ms-1">Out of Stock</span></p>
+                                <p className="mb-0"><strong>Status:</strong> <span className="badge bg-success ms-1">organic</span></p>
                             </div>
                         </div>
                         <div className="product-details">
@@ -1049,11 +1049,10 @@ export default function Products() {
                                         <li>• Ground</li>
                                     </ul>
                                     <p className="mb-2"><strong>Pesticides Status:</strong></p>
-                                    <ul className="list-unstyled">
-                                        <li>• Conventional Sun Dried (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 Sun Dried (Out of Stock)</li>
-                                        <li>• Conventional Machine Dried (Out of Stock)</li>
-                                        <li>• AS Reg. EC396/2005 Machine Dried (Out of Stock)</li>
+                                 <ul className="list-unstyled">
+                                        <li>• Conventional</li>
+                                        <li>• AS Reg. EC396/2005</li>
+                                        <li>• Organic</li>
                                     </ul>
                                 </div>
                                 <Link to="/contact" className="btn btn-light rounded-pill w-100 mt-3">
